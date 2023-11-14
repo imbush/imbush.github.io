@@ -1,34 +1,19 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Su":
+  - firstname: ["Tin Tin", "T.T."]
+    url: https://www.colorado.edu/mcdb/tin-tin-su
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+"Han":
+  - firstname: ["Chun", "C."]
     url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Wildonger":
+  - firstname: ["Jill", "J."]
+    url: https://www.wildongerlab.org/research.html
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Lichtman": 
+  - firstname: ["Jeff", "J."]
+    url: https://lichtmanlab.fas.harvard.edu/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Navlakha":
+  - firstname: ["Saket", "S."]
+    url: https://www.cshl.edu/research/faculty-staff/saket-navlakha/

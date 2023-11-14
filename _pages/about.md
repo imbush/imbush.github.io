@@ -13,10 +13,7 @@ profile:
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons below description of self
+social: false  # includes social icons below description of self
 ---
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. dkjfnaljdkfnaslkdjfnasklndfklasjndfsad
-fasdf
-asdf
-asdfasdf
+I am a junior studying Computer Science, Biology, and Mathematics at Cornell University. My research interest lies in . I conduct research with Chun Han at Cornell and Saket Navlakha at CSHL. 
