@@ -96,6 +96,12 @@
               {% endfor -%}
               {%- if site.enable_darkmode %}
 
+              <!-- CV pdf -->
+              <li class="nav-item">
+                <a class="nav-link" href="{{ site.cv_url | relative_url }}">CV
+                </a>
+              </li>
+
               <!-- Toogle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
