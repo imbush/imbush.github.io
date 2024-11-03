@@ -24,4 +24,7 @@ end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
+    gem 'jquery-rails'
+    gem 'light_gallery_rails'
+    gem 'isotope-rails'
 end
