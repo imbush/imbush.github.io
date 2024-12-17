@@ -9,7 +9,7 @@ At the end of our wonderful three week road trip at the West Coast of the US, we
 
 This is an example gallery. All images licensed under [CC-BY-NC-SA license][license]. Check the [Git Repo][repo] for a copy of this license.
 
-{% include gallery-layout.html gallery=site.data.galleries.san-francisco %}
+{% include gallery-layout.html gallery=site.data.galleries.macro %}
 
 [license]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [repo]: https://github.com/opieters/jekyll-gallery-example
