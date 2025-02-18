@@ -3,8 +3,7 @@ layout: page
 permalink: /photography/
 title: photography
 description:
-nav: true
-nav_order: 1
+nav: false
 ---
 <!-- _pages/galleries.md -->
 <div class="galleries-list">
