@@ -336,15 +336,16 @@ imagemagick:
     - 480
     - 800
     - 1400
+    # - 0
   input_directories:
-    - assets/img/
+    - assets/photography/macro/
   input_formats:
     - ".jpg"
     - ".jpeg"
     - ".png"
     - ".tiff"
   output_formats:
-    webp: "-resize 800x"
+    jpg: "-resize 800x"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
