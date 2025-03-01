@@ -5,7 +5,7 @@ no_menu_item: true # required only for this example website because of menu cons
 support: [jquery, gallery]
 permalink: /macro/
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 {% include gallery-layout.html gallery=site.data.galleries.macro %}
