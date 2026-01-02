@@ -8,23 +8,32 @@ preview:
   - 20160101-24-07-Deerfield-_1010933-1400.jpg
   thumbnail: 20160101-24-07-Deerfield-_1010933-1400.jpg
 pictures:
+# - caption: ''
+#   filename: 20160101-24-07-Deerfield-_1010933
+#   original: 20160101-24-07-Deerfield-_1010933.jpg
+#   sizes:
+#   - 20160101-24-07-Deerfield-_1010933-480.jpg
+#   - 20160101-24-07-Deerfield-_1010933-800.jpg
+#   - 20160101-24-07-Deerfield-_1010933-1400.jpg
+#   thumbnail: 20160101-24-07-Deerfield-_1010933-1400.jpg
+#   title: Temporary Title
+# - caption: ''
+#   filename: 20240630-24-06-30-Lion-Farm-P6301920
+#   original: 20240630-24-06-30-Lion-Farm-P6301920.jpg
+#   sizes:
+#   - 20240630-24-06-30-Lion-Farm-P6301920-480.jpg
+#   - 20240630-24-06-30-Lion-Farm-P6301920-800.jpg
+#   - 20240630-24-06-30-Lion-Farm-P6301920-1400.jpg
+#   thumbnail: 20240630-24-06-30-Lion-Farm-P6301920-1400.jpg
+#   title: Temporary Title
 - caption: ''
-  filename: 20160101-24-07-Deerfield-_1010933
-  original: 20160101-24-07-Deerfield-_1010933.jpg
+  filename: 20241006-2024-10-06-Ithaca-jumping-spider-_A062107
+  original: 20241006-2024-10-06-Ithaca-jumping-spider-_A062107.jpg
   sizes:
-  - 20160101-24-07-Deerfield-_1010933-480.jpg
-  - 20160101-24-07-Deerfield-_1010933-800.jpg
-  - 20160101-24-07-Deerfield-_1010933-1400.jpg
-  thumbnail: 20160101-24-07-Deerfield-_1010933-1400.jpg
-  title: Temporary Title
-- caption: ''
-  filename: 20240630-24-06-30-Lion-Farm-P6301920
-  original: 20240630-24-06-30-Lion-Farm-P6301920.jpg
-  sizes:
-  - 20240630-24-06-30-Lion-Farm-P6301920-480.jpg
-  - 20240630-24-06-30-Lion-Farm-P6301920-800.jpg
-  - 20240630-24-06-30-Lion-Farm-P6301920-1400.jpg
-  thumbnail: 20240630-24-06-30-Lion-Farm-P6301920-1400.jpg
+  - 20241006-2024-10-06-Ithaca-jumping-spider-_A062107-480.jpg
+  - 20241006-2024-10-06-Ithaca-jumping-spider-_A062107-800.jpg
+  - 20241006-2024-10-06-Ithaca-jumping-spider-_A062107-1400.jpg
+  thumbnail: 20241006-2024-10-06-Ithaca-jumping-spider-_A062107-1400.jpg
   title: Temporary Title
 - caption: ''
   filename: 20240824-24-08-24-Ithaca-_8241673
@@ -45,15 +54,6 @@ pictures:
   thumbnail: 20160101-24-07-Deerfield-_1010925-1400.jpg
   title: Temporary Title
 - caption: ''
-  filename: 20241006-2024-10-06-Ithaca-jumping-spider-_A062107
-  original: 20241006-2024-10-06-Ithaca-jumping-spider-_A062107.jpg
-  sizes:
-  - 20241006-2024-10-06-Ithaca-jumping-spider-_A062107-480.jpg
-  - 20241006-2024-10-06-Ithaca-jumping-spider-_A062107-800.jpg
-  - 20241006-2024-10-06-Ithaca-jumping-spider-_A062107-1400.jpg
-  thumbnail: 20241006-2024-10-06-Ithaca-jumping-spider-_A062107-1400.jpg
-  title: Temporary Title
-- caption: ''
   filename: 20240824-24-08-24-Ithaca-_8241921
   original: 20240824-24-08-24-Ithaca-_8241921.jpg
   sizes:
@@ -62,15 +62,15 @@ pictures:
   - 20240824-24-08-24-Ithaca-_8241921-1400.jpg
   thumbnail: 20240824-24-08-24-Ithaca-_8241921-1400.jpg
   title: Temporary Title
-- caption: ''
-  filename: 20240630-24-06-30-Lion-Farm-P6301894
-  original: 20240630-24-06-30-Lion-Farm-P6301894.jpg
-  sizes:
-  - 20240630-24-06-30-Lion-Farm-P6301894-480.jpg
-  - 20240630-24-06-30-Lion-Farm-P6301894-800.jpg
-  - 20240630-24-06-30-Lion-Farm-P6301894-1400.jpg
-  thumbnail: 20240630-24-06-30-Lion-Farm-P6301894-1400.jpg
-  title: Temporary Title
+# - caption: ''
+#   filename: 20240630-24-06-30-Lion-Farm-P6301894
+#   original: 20240630-24-06-30-Lion-Farm-P6301894.jpg
+#   sizes:
+#   - 20240630-24-06-30-Lion-Farm-P6301894-480.jpg
+#   - 20240630-24-06-30-Lion-Farm-P6301894-800.jpg
+#   - 20240630-24-06-30-Lion-Farm-P6301894-1400.jpg
+#   thumbnail: 20240630-24-06-30-Lion-Farm-P6301894-1400.jpg
+#   title: Temporary Title
 - caption: ''
   filename: 20160101-24-07-Deerfield-_1010930
   original: 20160101-24-07-Deerfield-_1010930.jpg
@@ -98,24 +98,24 @@ pictures:
   - 20240817-24-08-17-Naples Botanical Gardens-_8171006-1400.jpg
   thumbnail: 20240817-24-08-17-Naples Botanical Gardens-_8171006-1400.jpg
   title: Temporary Title
-- caption: ''
-  filename: 20240630-24-06-30-Lion-Farm-P6301919
-  original: 20240630-24-06-30-Lion-Farm-P6301919.jpg
-  sizes:
-  - 20240630-24-06-30-Lion-Farm-P6301919-480.jpg
-  - 20240630-24-06-30-Lion-Farm-P6301919-800.jpg
-  - 20240630-24-06-30-Lion-Farm-P6301919-1400.jpg
-  thumbnail: 20240630-24-06-30-Lion-Farm-P6301919-1400.jpg
-  title: Temporary Title
-- caption: ''
-  filename: 20240816-24-08-16-Fort Myers-_8160265
-  original: 20240816-24-08-16-Fort Myers-_8160265.jpg
-  sizes:
-  - 20240816-24-08-16-Fort Myers-_8160265-480.jpg
-  - 20240816-24-08-16-Fort Myers-_8160265-800.jpg
-  - 20240816-24-08-16-Fort Myers-_8160265-1400.jpg
-  thumbnail: 20240816-24-08-16-Fort Myers-_8160265-1400.jpg
-  title: Temporary Title
+# - caption: ''
+#   filename: 20240630-24-06-30-Lion-Farm-P6301919
+#   original: 20240630-24-06-30-Lion-Farm-P6301919.jpg
+#   sizes:
+#   - 20240630-24-06-30-Lion-Farm-P6301919-480.jpg
+#   - 20240630-24-06-30-Lion-Farm-P6301919-800.jpg
+#   - 20240630-24-06-30-Lion-Farm-P6301919-1400.jpg
+#   thumbnail: 20240630-24-06-30-Lion-Farm-P6301919-1400.jpg
+#   title: Temporary Title
+# - caption: ''
+#   filename: 20240816-24-08-16-Fort Myers-_8160265
+#   original: 20240816-24-08-16-Fort Myers-_8160265.jpg
+#   sizes:
+#   - 20240816-24-08-16-Fort Myers-_8160265-480.jpg
+#   - 20240816-24-08-16-Fort Myers-_8160265-800.jpg
+#   - 20240816-24-08-16-Fort Myers-_8160265-1400.jpg
+#   thumbnail: 20240816-24-08-16-Fort Myers-_8160265-1400.jpg
+#   title: Temporary Title
 - caption: ''
   filename: 20240824-24-08-24-Ithaca-_8241837
   original: 20240824-24-08-24-Ithaca-_8241837.jpg
@@ -215,24 +215,24 @@ pictures:
   - 20241020-24-10-20-Ithaca-_A200288-1400.jpg
   thumbnail: 20241020-24-10-20-Ithaca-_A200288-1400.jpg
   title: Temporary Title
-- caption: ''
-  filename: 20240630-24-06-30-Lion-Farm-P6301948
-  original: 20240630-24-06-30-Lion-Farm-P6301948.jpg
-  sizes:
-  - 20240630-24-06-30-Lion-Farm-P6301948-480.jpg
-  - 20240630-24-06-30-Lion-Farm-P6301948-800.jpg
-  - 20240630-24-06-30-Lion-Farm-P6301948-1400.jpg
-  thumbnail: 20240630-24-06-30-Lion-Farm-P6301948-1400.jpg
-  title: Temporary Title
-- caption: ''
-  filename: 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699
-  original: 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699.jpg
-  sizes:
-  - 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699-480.jpg
-  - 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699-800.jpg
-  - 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699-1400.jpg
-  thumbnail: 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699-1400.jpg
-  title: Temporary Title
+# - caption: ''
+#   filename: 20240630-24-06-30-Lion-Farm-P6301948
+#   original: 20240630-24-06-30-Lion-Farm-P6301948.jpg
+#   sizes:
+#   - 20240630-24-06-30-Lion-Farm-P6301948-480.jpg
+#   - 20240630-24-06-30-Lion-Farm-P6301948-800.jpg
+#   - 20240630-24-06-30-Lion-Farm-P6301948-1400.jpg
+#   thumbnail: 20240630-24-06-30-Lion-Farm-P6301948-1400.jpg
+#   title: Temporary Title
+# - caption: ''
+#   filename: 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699
+#   original: 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699.jpg
+#   sizes:
+#   - 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699-480.jpg
+#   - 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699-800.jpg
+#   - 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699-1400.jpg
+#   thumbnail: 20240713-2024-10-06-Ithaca-24-06-NYC-_7130699-1400.jpg
+#   title: Temporary Title
 - caption: ''
   filename: 20240704-2024-10-06-Ithaca-24-06-NYC-P7040124
   original: 20240704-2024-10-06-Ithaca-24-06-NYC-P7040124.jpg
@@ -251,15 +251,15 @@ pictures:
   - 20160101-24-07-Deerfield-_1010988-1400.jpg
   thumbnail: 20160101-24-07-Deerfield-_1010988-1400.jpg
   title: Temporary Title
-- caption: ''
-  filename: 20240813-24-08-16-Fort Myers-nature-_8130429
-  original: 20240813-24-08-16-Fort Myers-nature-_8130429.jpg
-  sizes:
-  - 20240813-24-08-16-Fort Myers-nature-_8130429-480.jpg
-  - 20240813-24-08-16-Fort Myers-nature-_8130429-800.jpg
-  - 20240813-24-08-16-Fort Myers-nature-_8130429-1400.jpg
-  thumbnail: 20240813-24-08-16-Fort Myers-nature-_8130429-1400.jpg
-  title: Temporary Title
+# - caption: ''
+#   filename: 20240813-24-08-16-Fort Myers-nature-_8130429
+#   original: 20240813-24-08-16-Fort Myers-nature-_8130429.jpg
+#   sizes:
+#   - 20240813-24-08-16-Fort Myers-nature-_8130429-480.jpg
+#   - 20240813-24-08-16-Fort Myers-nature-_8130429-800.jpg
+#   - 20240813-24-08-16-Fort Myers-nature-_8130429-1400.jpg
+#   thumbnail: 20240813-24-08-16-Fort Myers-nature-_8130429-1400.jpg
+#   title: Temporary Title
 - caption: ''
   filename: 20240824-24-08-24-Ithaca-_8241652
   original: 20240824-24-08-24-Ithaca-_8241652.jpg
@@ -287,15 +287,15 @@ pictures:
   - 20241006-2024-10-06-Ithaca-jumping-spider-_A062090-1400.jpg
   thumbnail: 20241006-2024-10-06-Ithaca-jumping-spider-_A062090-1400.jpg
   title: Temporary Title
-- caption: ''
-  filename: 20240817-24-08-17-Naples Botanical Gardens-_8171385
-  original: 20240817-24-08-17-Naples Botanical Gardens-_8171385.jpg
-  sizes:
-  - 20240817-24-08-17-Naples Botanical Gardens-_8171385-480.jpg
-  - 20240817-24-08-17-Naples Botanical Gardens-_8171385-800.jpg
-  - 20240817-24-08-17-Naples Botanical Gardens-_8171385-1400.jpg
-  thumbnail: 20240817-24-08-17-Naples Botanical Gardens-_8171385-1400.jpg
-  title: Temporary Title
+# - caption: ''
+#   filename: 20240817-24-08-17-Naples Botanical Gardens-_8171385
+#   original: 20240817-24-08-17-Naples Botanical Gardens-_8171385.jpg
+#   sizes:
+#   - 20240817-24-08-17-Naples Botanical Gardens-_8171385-480.jpg
+#   - 20240817-24-08-17-Naples Botanical Gardens-_8171385-800.jpg
+#   - 20240817-24-08-17-Naples Botanical Gardens-_8171385-1400.jpg
+#   thumbnail: 20240817-24-08-17-Naples Botanical Gardens-_8171385-1400.jpg
+#   title: Temporary Title
 - caption: ''
   filename: 20160101-24-07-Deerfield-_1010916
   original: 20160101-24-07-Deerfield-_1010916.jpg
@@ -314,24 +314,24 @@ pictures:
   - 20241006-2024-10-06-Ithaca-jumping-spider-_A062117-1400.jpg
   thumbnail: 20241006-2024-10-06-Ithaca-jumping-spider-_A062117-1400.jpg
   title: Temporary Title
-- caption: ''
-  filename: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654
-  original: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654.jpg
-  sizes:
-  - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654-480.jpg
-  - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654-800.jpg
-  - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654-1400.jpg
-  thumbnail: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654-1400.jpg
-  title: Temporary Title
-- caption: ''
-  filename: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668
-  original: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668.jpg
-  sizes:
-  - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668-480.jpg
-  - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668-800.jpg
-  - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668-1400.jpg
-  thumbnail: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668-1400.jpg
-  title: Temporary Title
+# - caption: ''
+#   filename: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654
+#   original: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654.jpg
+#   sizes:
+#   - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654-480.jpg
+#   - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654-800.jpg
+#   - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654-1400.jpg
+#   thumbnail: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120654-1400.jpg
+#   title: Temporary Title
+# - caption: ''
+#   filename: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668
+#   original: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668.jpg
+#   sizes:
+#   - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668-480.jpg
+#   - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668-800.jpg
+#   - 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668-1400.jpg
+#   thumbnail: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120668-1400.jpg
+#   title: Temporary Title
 - caption: ''
   filename: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120658
   original: 20240712-2024-10-06-Ithaca-24-06-NYC-_7120658.jpg

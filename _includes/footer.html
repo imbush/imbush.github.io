@@ -20,6 +20,13 @@
         {%- if site.last_updated -%}
         Last updated: {{ "now" | date: '%B %d, %Y' }}.
         {%- endif %}
+        {%- if site.enable_navbar_social -%}
+        <!-- Social Icons -->
+        <li class="navbar-brand social">
+          {% include social.html %}
+        </li>
+        {% endif %}
+
       </div>
     </footer>
     {%- endif %}
