@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<section class="intro">
+  <img class="intro__photo" src="{{ '/assets/img/inle-photo.jpeg' | relative_url }}" alt="Inle Bush">
+  <div class="intro__body">
+    <h1>{{ site.author_name }}</h1>
+    <!-- Bio. Edit the prose right here. -->
+    <div class="bio">
+      <p>
+        I'm a PhD student in the
+        <a href="https://pinphd.hms.harvard.edu/">Program in Neuroscience</a> at Harvard,
+        supported by the NSF GRFP. I received my B.A. in Computer Science, Biology, &amp;
+        Mathematics from Cornell University. Previously, I worked in the lab of
+        <a href="https://han.wicmb.cornell.edu/">Chun Han</a>, studying dendritic development
+        and structural plasticity, the lab of
+        <a href="https://navlakhalab.net/">Saket Navlakha</a>, modelling plant-root and NMJ
+        development, and the lab of <a href="https://www.therutalab.com/">Vanessa Ruta</a>,
+        studying the evolution of territorial aggression.
+      </p>
+    </div>
+  </div>
+</section>
+
+<ul class="links">
+  <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+  <li><a href="https://github.com/{{ site.github_username }}">github</a></li>
+  <li><a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">google scholar</a></li>
+  <li><a href="{{ site.cv_url | relative_url }}">cv</a></li>
+  <li><a href="{{ '/calendar/' | relative_url }}">boston neuro calendar</a></li>
+</ul>
+
+<h2>papers</h2>
+
+<ol class="papers">
+  {%- for paper in site.data.papers %}
+  <li class="paper">
+    <p class="paper__title">
+      {%- if paper.links and paper.links.first -%}
+        <a href="{{ paper.links.first.url }}">{{ paper.title }}</a>
+      {%- else -%}
+        {{ paper.title }}
+      {%- endif -%}
+    </p>
+    <p class="paper__authors">{{ paper.authors | replace: site.author_name, '<strong>Inle Bush</strong>' }}</p>
+    <p class="paper__venue">{{ paper.venue }}{% if paper.venue and paper.year %}, {% endif %}{{ paper.year }}</p>
+    {%- if paper.links %}
+    <p class="paper__links">
+      {%- for link in paper.links %}<a href="{{ link.url }}">{{ link.name }}</a>{% endfor -%}
+    </p>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+</ol>

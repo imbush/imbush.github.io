@@ -1,0 +1,36 @@
+# Newest first. Occurrences of site.author_name are bolded automatically.
+- title: "In vivo optogenetic manipulations of endogenous proteins reveal spatiotemporal roles of microtubule and kinesin in dendrite patterning"
+  authors: "Yineng Xu, Bei Wang, Inle Bush, Harriet A. J. Saunders, Jill Wildonger, Chun Han"
+  venue: "Science Advances 10(35), eadp0138"
+  year: 2024
+  links:
+    - name: paper
+      url: https://www.science.org/doi/abs/10.1126/sciadv.adp0138
+    - name: pdf
+      url: https://www.science.org/doi/pdf/10.1126/sciadv.adp0138
+
+- title: "A neural algorithm for computing bipartite matchings"
+  authors: "Sanjoy Dasgupta, Yaron Meirovitch, Xingyu Zheng, Inle Bush, Jeff Lichtman, Saket Navlakha"
+  venue: "PNAS"
+  year: 2024
+  links:
+    - name: paper
+      url: https://www.pnas.org/doi/10.1073/pnas.2321032121
+
+- title: "Visualization and measurement of dendrite arborization in neurons"
+  authors: "Yineng Xu, Inle Bush, Chun Han"
+  venue: "Neuronal Morphogenesis: Methods and Protocols, Springer"
+  year: 2023
+  links:
+    - name: chapter
+      url: https://doi.org/10.1007/978-1-0716-3969-6
+
+- title: "Cells with loss-of-heterozygosity after exposure to ionizing radiation in Drosophila are culled by p53-dependent and p53-independent mechanisms"
+  authors: "Jeremy Brown, Inle Bush, Justine Bozon, Tin Tin Su"
+  venue: "PLOS Genetics 16(10)"
+  year: 2020
+  links:
+    - name: paper
+      url: https://doi.org/10.1371/journal.pgen.1009056
+    - name: pdf
+      url: "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1009056&type=printable"

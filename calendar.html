@@ -1,0 +1,36 @@
+---
+layout: default
+permalink: /calendar/
+title: greater boston neuroscience events
+description: Neuroscience seminars, colloquia, and symposia around greater Boston, collected in one calendar.
+wide: true
+---
+
+{%- assign cal = site.boston_calendar_id | url_encode -%}
+{%- assign tz = site.boston_calendar_tz | url_encode -%}
+{%- capture embed -%}
+https://calendar.google.com/calendar/embed?src={{ cal }}&amp;ctz={{ tz }}&amp;showTitle=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;showTz=1
+{%- endcapture -%}
+
+<p class="backlink"><a href="{{ '/' | relative_url }}">&larr; {{ site.author_name }}</a></p>
+
+<h1>Greater Boston Neuroscience Events</h1>
+
+<p class="lede">
+  Neuroscience seminars, colloquia, and symposia around greater Boston, collected in one
+  calendar. Automatically updated weekly. Not all events are open to the public.
+  <a href="mailto:{{ site.email }}">Contact me</a> with any suggestions.
+</p>
+
+<div class="cal">
+  <iframe title="Greater Boston Neuroscience Events calendar"
+          src="{{ embed | strip }}&amp;mode=MONTH"
+          loading="lazy"
+          frameborder="0" scrolling="no"></iframe>
+</div>
+
+<p class="cal__links">
+  <a href="{{ embed | strip }}&amp;mode=AGENDA">agenda view</a>
+  <a href="https://calendar.google.com/calendar/render?cid={{ cal }}">add to your google calendar</a>
+  <a href="https://calendar.google.com/calendar/ical/{{ cal }}/public/basic.ics">subscribe (.ics)</a>
+</p>
