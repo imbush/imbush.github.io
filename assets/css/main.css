@@ -3,6 +3,8 @@
    --------------------------------------------------------------------------- */
 
 :root {
+  color-scheme: light;
+
   --bg: #ffffff;
   --fg: #1a1a1a;
   --muted: #6b6b6b;
@@ -12,17 +14,6 @@
   --chip-bg: #f4f4f5;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #131316;
-    --fg: #e8e8e6;
-    --muted: #9a9a97;
-    --rule: #2c2c31;
-    --link: #7fa8ee;
-    --link-hover: #a9c4f4;
-    --chip-bg: #1f1f24;
-  }
-}
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -128,10 +119,15 @@ h1 {
 
 .lede {
   max-width: 62ch;
-  margin: 0 auto 1.75rem;
+  margin: 0 auto;
   color: var(--muted);
   text-align: center;
 }
+
+.cal-section { margin: 2.75rem 0 0; }
+.cal-section:first-of-type { margin-top: 2rem; }
+
+.cal-section h2 { margin-top: 0; margin-bottom: 1rem; }
 
 .cal {
   margin: 0;
