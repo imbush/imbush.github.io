@@ -1,9 +1,40 @@
 ---
 layout: default
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Inle Bush",
+    "url": "https://imbush.github.io",
+    "image": "https://imbush.github.io/assets/img/inle-photo.jpeg",
+    "email": "mailto:inlebush@gmail.com",
+    "jobTitle": "PhD student",
+    "description": "PhD student in the Program in Neuroscience at Harvard, studying cellular mechanisms and computational models of morphogenesis.",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Program in Neuroscience, Harvard University",
+      "url": "https://pinphd.hms.harvard.edu/"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Cornell University",
+      "url": "https://www.cornell.edu/"
+    },
+    "knowsAbout": [
+      "Neuroscience",
+      "Morphogenesis",
+      "Dendritic development",
+      "Computational biology"
+    ],
+    "sameAs": [
+      "https://github.com/imbush",
+      "https://scholar.google.com/citations?user=Sw7Fa24AAAAJ"
+    ]
+  }
 ---
 
 <section class="intro">
-  <img class="intro__photo" src="{{ '/assets/img/inle-photo.jpeg' | relative_url }}" alt="Inle Bush">
+  <img class="intro__photo" src="{{ '/assets/img/inle-photo.jpeg' | relative_url }}" alt="Inle Bush" width="800" height="800">
   <div class="intro__body">
     <h1>{{ site.author_name }}</h1>
     <!-- Bio. Edit the prose right here. -->
@@ -27,7 +58,7 @@ layout: default
   <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
   <li><a href="https://github.com/{{ site.github_username }}">github</a></li>
   <li><a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">google scholar</a></li>
-  <li><a href="{{ '/calendar/' | relative_url }}">boston neuro calendar</a></li>
+  <li><a href="{{ '/calendar/' | relative_url }}">boston event calendars</a></li>
 </ul>
 
 <h2>papers</h2>

@@ -7,10 +7,11 @@ Personal site for Inle Bush — a small, hand-rolled Jekyll site.
 | Path                     | What it is                                                    |
 | ------------------------ | ------------------------------------------------------------- |
 | `index.html`               | Landing page: bio, link row, and the papers list               |
-| `calendar.html`          | `/calendar/` — the embedded Boston neuroscience calendar      |
+| `calendar.html`          | `/calendar/` — the embedded Boston event calendars            |
+| `_data/calendars.yml`    | The calendars that page embeds — add or reorder here          |
 | `_data/papers.yml`       | Publications — add new ones here, newest first                |
 | `_layouts/default.html`  | The only layout (head, `<main>`, footer)                      |
-| `assets/css/main.css`    | The only stylesheet, with light and dark palettes             |
+| `assets/css/main.css`    | The only stylesheet (light only — see below)                  |
 | `_config.yml`            | Name, email, and the URLs used by the link row                |
 
 ## Adding a paper
@@ -42,11 +43,33 @@ branch via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
 
 ## The calendar page
 
-`/calendar/` embeds a public Google Calendar in an iframe — no plugin or API key, so
-it works on GitHub Pages as-is. The calendar is set by `boston_calendar_id` in
-`_config.yml`; the page derives the embed, agenda, subscribe, and add-to-calendar URLs
-from it. Pages that set `wide: true` in their front matter get a 1040px container
-instead of the 720px prose column.
+`/calendar/` embeds public Google Calendars in iframes — no plugin or API key, so it
+works on GitHub Pages as-is. Each calendar is one entry in `_data/calendars.yml`:
+
+```yaml
+- heading: Neuroscience
+  id: c_xxxxxxxx@group.calendar.google.com
+```
+
+The page derives the embed, agenda, subscribe, and add-to-calendar URLs from the `id`,
+so adding a calendar is one entry. The calendar must be shared publicly ("make available
+to public") or the embed shows visitors an error. Pages that set `wide: true` in their
+front matter get a 1040px container instead of the 720px prose column.
+
+## Theming
+
+The site is light-only on purpose: the Google Calendar embeds on `/calendar/` always
+render light and cannot be themed from outside the iframe, so a dark page left a glaring
+white block. `:root` declares `color-scheme: light` and there is no
+`prefers-color-scheme` query.
+
+## SEO
+
+`_layouts/default.html` emits per-page title, description, canonical, Open Graph, and
+Twitter card tags; `share_image` in `_config.yml` sets the preview image. The home page
+carries a `schema` block in its front matter that is emitted as JSON-LD `Person` data —
+keep it in step with the bio. Images are served at display size; the hero photo is 800px
+square, not the camera original.
 
 The interactive data explorer at <https://imbush.github.io/data-vis/> lives in a
 separate `data-vis` repository and is not affected by anything here.

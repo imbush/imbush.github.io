@@ -8,6 +8,7 @@ description: >-
   Inle Bush — PhD student in the Program in Neuroscience at Harvard.
   Cellular mechanisms and computational models of morphogenesis.
 motto: ပညာရွှေအိုးလူမခိုး
+share_image: /assets/img/inle-photo.jpeg
 
 url: https://imbush.github.io
 baseurl: ""
@@ -18,9 +19,8 @@ lang: en
 # -----------------------------------------------------------------------------
 github_username: imbush
 scholar_userid: Sw7Fa24AAAAJ
-# Public Google Calendar shown on /calendar/ ("Boston Neuroscience Seminars")
-boston_calendar_id: c_37671c6ff92170a2032e4d44858c3cf23d332abbd0d85c37b08542816a232a49@group.calendar.google.com
-boston_calendar_tz: America/New_York
+# Calendars shown on /calendar/ live in _data/calendars.yml
+calendar_tz: America/New_York
 
 # -----------------------------------------------------------------------------
 # Build
@@ -34,6 +34,13 @@ sass:
 
 plugins:
   - jekyll-sitemap
+
+# the Search Console token file is not a page
+defaults:
+  - scope:
+      path: "google459fc54f8da10aee.html"
+    values:
+      sitemap: false
 
 exclude:
   - Gemfile
